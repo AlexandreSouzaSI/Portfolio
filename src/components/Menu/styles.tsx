@@ -44,6 +44,7 @@ export const Texto = styled.span<SpanProps>`
   margin: 0;
   padding: 10px;
   font-size: 25px;
+  font-family: Arial, sans-serif;
   color: #FFF;
   display: flex;
   flex-direction: row;
@@ -66,6 +67,8 @@ export const Texto = styled.span<SpanProps>`
 
 export const Nome = styled.span`
   font-size: 30px;
+  margin-left: 250px;
   font-weight: bold;
+  font-family: Arial, sans-serif;
   color: #fff;
 `

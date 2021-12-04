@@ -11,7 +11,7 @@ export const GlobalStyles = createGlobalStyle<{ theme: ThemeType }>`
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: 'Marvel', sans-serif;
+    //font-family: 'Marvel', sans-serif;
   }
 
   body {
