@@ -8,7 +8,6 @@ export const ContainerPrincipalFormacao = styled.div`
   width: 100%;
   
   div {
-    background-color: #fcfcfc;
     width: 700px;
     text-align: center;
     border: 0.1px solid #b1b1b1;
