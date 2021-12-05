@@ -7,7 +7,7 @@ export const Inicio = () => {
   return (
     <ContainerConteudoPrincipal>
       <Imagem src={imagem} alt="AlexandreIMG" />
-      <Info fontSize="25px"> Desenvolvedor Full Stack </Info>
+      <Info fontSize="25px" marginBottom="50px" marginTop="50px"> Desenvolvedor Full Stack </Info>
       <Info><div id="link"><GrGithub /></div>  <a href="https://github.com/AlexandreSouzaSI" target="_blank" rel="noreferrer">https://github.com/AlexandreSouzaSI</a> </Info>
       <Info><div id="link"><GrLinkedin /></div> <a href="https://www.linkedin.com/in/alexandre-moura-s/" target="_blank" rel="noreferrer">https://www.linkedin.com/in/alexandre-moura-s/</a> </Info>
       <Info><div id="link"><GrMail /></div> <a href="mailto:alemoura23@hotmail.com" target="_blank" rel="noreferrer">alemoura23@hotmail.com</a> </Info>

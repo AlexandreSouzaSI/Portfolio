@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { fontWeight, FontWeightProps } from "styled-system";
 
 export const ContainerPrincipalSobreMim = styled.div`
-  width: 100%;
+  width: 87%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;

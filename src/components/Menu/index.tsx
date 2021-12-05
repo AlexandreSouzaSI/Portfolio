@@ -1,8 +1,7 @@
 import { Container, ContainerMenu, ContainerPrincipal, Nome, Texto } from "./styles"
-import { FcHome, FcGraduationCap, FcVoicePresentation, FcBullish, FcOpenedFolder, FcBriefcase } from "react-icons/fc";
+import { FcHome, FcVoicePresentation, FcBullish, FcOpenedFolder, FcBriefcase } from "react-icons/fc";
 import { useState } from "react";
 import { SobreMim } from "../SobreMim";
-import { Formacao } from "../Formacao";
 import { Inicio } from "../Inicio";
 import { Objetivo } from "../Objetivo";
 import { Experiencia } from "../Experiencia";
@@ -11,7 +10,7 @@ import { Projetos } from "../Projetos";
 
 export const Menu = () => {
 
-  const [stage, setStage] = useState("");
+  const [stage, setStage] = useState("Home");
 
   const handleHome = () => {
     setStage("Home")
@@ -19,10 +18,6 @@ export const Menu = () => {
 
   const handleSobreMim = () => {
     setStage("SobreMim")
-  }
-
-  const handleFormacao = () => {
-    setStage("Formacao")
   }
 
   const handleObjetivo = () => {
@@ -48,7 +43,6 @@ export const Menu = () => {
           <Texto onClick={handleSobreMim}><div id="icon"><FcVoicePresentation /></div>Sobre Mim</Texto>
           <Texto onClick={handleObjetivo}><div id="icon"><FcBullish /></div>Objetivo</Texto>
           <Texto onClick={handleExperiencia}><div id="icon"><FcBriefcase /></div>Experiência</Texto>
-          <Texto onClick={handleFormacao}><div id="icon"><FcGraduationCap /></div>Formação</Texto>
           <Texto onClick={handleProjetos}><div id="icon"><FcOpenedFolder /></div>Projetos</Texto>
         </ContainerMenu>
         {stage === "Home" && (
@@ -62,9 +56,6 @@ export const Menu = () => {
         )}
         {stage === "Experiencia" && (
           <Experiencia />
-        )}
-        {stage === "Formacao" && (
-          <Formacao />
         )}
         {stage === "Projetos" && (
           <Projetos />

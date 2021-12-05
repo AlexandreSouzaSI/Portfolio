@@ -31,16 +31,15 @@ export const ContainerMenu = styled.div`
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
   background-color: #545766;
-  width: 250px;
+  width: 13%;
   height: 100%;
 `
 
 type SpanProps = LayoutProps;
 
-export const Texto = styled.span<SpanProps>`
+export const Texto = styled.p<SpanProps>`
   margin: 0;
   padding: 10px;
   font-size: 25px;
