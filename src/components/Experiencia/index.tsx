@@ -1,8 +1,9 @@
+import { ContainerPrincipalExperiencia } from "./styles"
 
 export const Experiencia = () => {
     return (
-      <div>
+      <ContainerPrincipalExperiencia>
         
-      </div>
+      </ContainerPrincipalExperiencia>
     )
 }
